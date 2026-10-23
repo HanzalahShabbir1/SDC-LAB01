@@ -1,0 +1,16 @@
+  #task3
+list1=[10,20,30,40]
+def search(value):
+    for i in range(len (list1)):
+        if list1[i]==value:
+            print("found at index" , i)
+            return
+        print("not found")
+        search(30)
+        
+#task4
+list1=[10,20,30,40]
+def display():
+    for i in range(len(list)):
+        print(list1[i],end="")
+        display()
